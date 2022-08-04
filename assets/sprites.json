@@ -1,0 +1,132 @@
+{"frames": {
+
+"char.png":
+{
+	"frame": {"x":775,"y":303,"w":70,"h":68},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":68},
+	"sourceSize": {"w":70,"h":68}
+},
+"clumsy.png":
+{
+	"frame": {"x":431,"y":151,"w":255,"h":60},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":60},
+	"sourceSize": {"w":255,"h":60}
+},
+"favicon.ico":
+{
+	"frame": {"x":493,"y":370,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+},
+"gameover.png":
+{
+	"frame": {"x":621,"y":151,"w":161,"h":127},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":3,"w":161,"h":127},
+	"sourceSize": {"w":245,"h":132}
+},
+"gameoverbg.png":
+{
+	"frame": {"x":1,"y":1,"w":505,"h":361},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":505,"h":361},
+	"sourceSize": {"w":505,"h":361}
+},
+"getready.png":
+{
+	"frame": {"x":364,"y":151,"w":354,"h":65},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":33,"w":354,"h":65},
+	"sourceSize": {"w":405,"h":134}
+},
+"ground.png":
+{
+	"frame": {"x":431,"y":408,"w":900,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":900,"h":96},
+	"sourceSize": {"w":900,"h":96}
+},
+"hit.png":
+{
+	"frame": {"x":827,"y":151,"w":148,"h":60},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":60},
+	"sourceSize": {"w":148,"h":60}
+},
+"logo.png":
+{
+	"frame": {"x":493,"y":151,"w":217,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":11,"w":217,"h":126},
+	"sourceSize": {"w":351,"h":145}
+},
+"new.png":
+{
+	"frame": {"x":907,"y":273,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"pipe.png":
+{
+	"frame": {"x":364,"y":1,"w":148,"h":1664},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":1664},
+	"sourceSize": {"w":148,"h":1664}
+},
+"share.png":
+{
+	"frame": {"x":750,"y":151,"w":150,"h":75},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":75},
+	"sourceSize": {"w":150,"h":75}
+},
+"touch-icon-iphone-retina.png":
+{
+	"frame": {"x":889,"y":151,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"touch-icon-iphone.png":
+{
+	"frame": {"x":845,"y":301,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"tweet.png":
+{
+	"frame": {"x":621,"y":314,"w":152,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":75},
+	"sourceSize": {"w":152,"h":75}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":2029,"h":507},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a9b70b141c4b690c084559b8f8d72738:bb7ce59c65b5833676b33849c5072ee9:1eabdf11f75e3a4fe3147baf7b5be24b$"
+}
+}

@@ -1,0 +1,131 @@
+html, body, canvas {
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+body {
+    background-color: #fff;
+}
+#wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#stage {
+    /*margin-left: auto;
+    margin-right: auto;
+    display: block;*/
+    width: 100%;
+    height: 100%;
+    
+	-webkit-box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.8);
+}
+
+#portraitonly {
+    /* margin: auto !important;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    min-height: 100vh;
+    visibility: hidden;
+}
+
+/****MODAL STYLE***/
+.modal {
+    left: 0;
+    top: 0;
+    display: none; 
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    height: 100vh; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.6); 
+}
+
+/* Modal Content/Box */
+@media only screen and (min-width: 768px) {
+
+    .error-content {
+        max-width: 600px;
+        min-width: 600px;
+        min-height: 120px;
+    }
+
+	.closePromo
+    {
+       position:fixed; 
+       width:40px; 
+       height: 40px;
+   
+       top: 0;
+       right:0; 
+       z-index:999999;
+       padding: 15px 8px 0 0;
+       cursor: pointer;
+
+    }
+}
+
+@media only screen and (min-width: 480px)  and (max-width: 736px){
+
+    .error-content {
+        min-width: 400px;        
+        min-height: 50px;
+    }
+	
+	.closeHistory
+    {
+       position:fixed; 
+       width:40px; 
+       height: 40px;
+       top: 0;
+       right:0; 
+       z-index:999999;
+       padding: 5px 0 0 5px;
+       cursor: pointer;
+    }
+
+}
+.closePromo
+{
+   position:fixed; 
+   width:40px; 
+   height: 40px;
+   top: 0;
+   right:0; 
+   z-index:999999;
+   padding: 10px 0 0 5px;
+   cursor: pointer;
+}
+
+#promoVideoContainer
+{
+   -webkit-overflow-scrolling: touch;
+   overflow-y: scroll;
+   display: none;
+}
+
+#promoFrame
+{
+   height: 100%;
+   width: 100%;
+}
+
+@font-face { font-family: Gotham_Rounded; src: url(../font/Gotham_Rounded_Bold.otf) format('opentype'), url(../font/Gotham\ Rounded\ Book.otf) format('opentype'); }
+
+@font-face { font-family: VAG_Rounded; src: url(../font/VAG\ Rounded\ Bold.ttf) format('truetype'), url(../font/VAG\ Rounded\ Regular.ttf) format('truetype'); }
+@font-face { font-family: bubblegum; src: url(../font/Bubblegum.ttf) format('truetype')}
+@font-face { font-family: badaboom; src: url(../font/BadaboomBB_Reg.ttf) format('truetype')}

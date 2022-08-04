@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Flappy Jeorge</title>
+        <meta name="viewport" content="minimal-ui, width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <canvas id="stage"></canvas>
+        </div>
+        <div id="promoVideoContainer" class="modal" style="width: 100%;  -webkit-overflow-scrolling: touch; 
+                position: absolute; top: 0; left:0;">
+            <iframe id="promoFrame"  ></iframe>
+            <div  class="closePromo">
+                <img src="commons/css/images/close_blue.png" width="35" height="35" alt="close">
+            </div>
+        </div>
+        <script src="commons/lib/is.min.js"></script>
+        <script src="bundle.js"></script>
+    </body>
+</html>
